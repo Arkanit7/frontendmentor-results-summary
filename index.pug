@@ -1,0 +1,60 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport' content='width=device-width, initial-scale=1.0')
+		title Frontend Mentor | Results summary component
+		link(rel='icon' type='image/png' sizes='32x32' href='./assets/images/favicon-32x32.png')
+		link(rel="stylesheet" href="css/style.css")
+	body
+		main
+			.wrapper
+				.container
+					// Report
+					section.report
+						// Result
+						.report-result
+							h1.report__title.report-result__title Your result
+							p.report-result__result
+								span 76
+								|  of 100
+							section.report-result__footer
+								h2.report-result__footer-title Great
+								p.report-result__paragraph You scored higher than 65% of the people who have taken these tests
+						// Summary
+						section.report-summary
+							h2.report__title.report-summary__title Summary
+							.report-summary__categories
+								.report-summary-item.report-summary-item_color_red
+									.report-summary-item__main
+										svg.report-summary-item__icon.icon
+											use(xlink:href="./assets/images/icons/symbol-defs.svg#icon-reaction")
+										p Reaction
+									p.report-summary-item__score
+										span 80
+										|  / 100
+								.report-summary-item.report-summary-item_color_yellow
+									.report-summary-item__main
+										svg.report-summary-item__icon.icon
+											use(xlink:href="./assets/images/icons/symbol-defs.svg#icon-memory")
+										p Memory
+									p.report-summary-item__score
+										span 92
+										|  / 100
+								.report-summary-item.report-summary-item_color_teal
+									.report-summary-item__main
+										svg.report-summary-item__icon.icon
+											use(xlink:href="./assets/images/icons/symbol-defs.svg#icon-verbal")
+										p Verbal
+									p.report-summary-item__score
+										span 61
+										|  / 100
+								.report-summary-item.report-summary-item_color_blue
+									.report-summary-item__main
+										svg.report-summary-item__icon.icon
+											use(xlink:href="./assets/images/icons/symbol-defs.svg#icon-visual")
+										p Visual
+									p.report-summary-item__score
+										span 72
+										|  / 100
+							button.report__button(type="button") Continue
