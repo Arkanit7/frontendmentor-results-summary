@@ -144,6 +144,7 @@ body {
     max-width: 46rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    box-shadow: 0.5rem 1rem 3rem hsl(var(--clr-light-lavender-hsl)/50%);
   }
 }
 .report__title {

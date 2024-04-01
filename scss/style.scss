@@ -6,26 +6,7 @@
 
 // Variables
 
-$padding-mobile: 1.5rem;
-$padding-desktop: 2.5rem;
-$border-radius: 2rem;
-
-// Colors
-$clr-white-hsl: var(--clr-white-hsl);
-$clr-pale-blue-hsl: var(--clr-pale-blue-hsl);
-$clr-light-lavender-hsl: var(--clr-light-lavender-hsl);
-$clr-dark-gray-blue-hsl: var(--clr-dark-gray-blue-hsl);
-$clr-light-red-hsl: var(--clr-light-red-hsl);
-$clr-orangey-yellow-hsl: var(--clr-orangey-yellow-hsl);
-$clr-green-teal-hsl: var(--clr-green-teal-hsl);
-$clr-cobalt-blue-hsl: var(--clr-cobalt-blue-hsl);
-
-// Gradients
-$gradient-light-blue: var(--gradient-light-blue);
-$gradient-blue: var(--gradient-blue);
-
-// Font-families
-$ff-hanken-grotesk: var(--ff-hanken-grotesk);
+@use "variables" as *;
 
 /* Utility classes */
 
@@ -93,6 +74,8 @@ body {
     max-width: 46rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+		box-shadow: .5rem 1rem 3rem 
+		#{hsl}($clr-light-lavender-hsl / 50%);
   }
 
   &__title {
