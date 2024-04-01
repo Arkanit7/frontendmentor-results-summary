@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Arkanit7/frontendmentor-results-summary)
-- Live Site URL: [Add live site URL here](https://arkanit7.github.io/frontendmentor-results-summary)
+- Solution URL: [](https://github.com/Arkanit7/frontendmentor-results-summary)
+- Live Site URL: [](https://arkanit7.github.io/frontendmentor-results-summary)
 
 ## My process
 
@@ -57,6 +57,20 @@ $clr-white-hsl: 0deg 0% 100%;
 
 .component {
   color: #{hsl}($clr-white-hsl / 50%);
+}
+```
+
+How to properly connect variable fonts:
+
+```scss
+// Hanken Grotesk 100-900
+
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("../assets/fonts/hanken-grotesk.ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
 }
 ```
 
