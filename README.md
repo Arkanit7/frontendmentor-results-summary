@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Arkanit7/frontendmentor-results-summary](https://github.com/Arkanit7/frontendmentor-results-summary)
-- Live Site URL: [https://arkanit7.github.io/frontendmentor-results-summary](https://arkanit7.github.io/frontendmentor-results-summary)
+- Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/relaible-responsive-design-using-css-variables-bAqWIfWHEt)
+- Live Site URL: [Results Summary](https://arkanit7.github.io/frontendmentor-results-summary)
 
 ## My process
 
