@@ -160,7 +160,7 @@ body {
   padding: 1em;
   border-radius: 9in;
 }
-.report__button:hover, .report__button:focus-within {
+.report__button:hover, .report__button:focus-visible {
   background-image: var(--gradient-light-blue);
 }
 
