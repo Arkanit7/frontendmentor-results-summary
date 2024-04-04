@@ -93,7 +93,7 @@ body {
     border-radius: 9in;
 
     &:hover,
-    &:focus-within {
+    &:focus-visible {
       background-image: $gradient-light-blue;
     }
   }
